@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width:0) and (max-width:350px){
+    body{
+        background-color: purple;
+    }
+
+}
+
+
+@media  (min-width:350px) and (max-width:600px) {     /*phone*/
+    body{
+        background-color: red;
+    }
+
+    .left{
+        left: 15px;
+    }
+
+    .quote {
+        height: 150px;
+        width: 100%;
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 20px; */
+    }
+    .quote h2{
+        font-size: 15px;
+    }
+
+    #prog {
+        height: auto;
+        width: 100%;
+        /* border: 2px solid purple; */
+        display: grid;
+        place-items: center;
+        background: linear-gradient(to right,grey,black,grey);
+    }
+
+    .container2 {
+        height: 100%;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: grid;
+        place-items: center;
+    }
+
+    .container2 .prohead {
+        /* border: 2px solid grey; */
+        /* width: 235px; */
+        margin: 10px auto;
+    }
+
+    .cards {
+        height: 98%;
+        width: 100%;
+        /* border: 2px solid orange; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card2{
+        margin: 10px 0;
+    }
+
+    #ab {
+        height: 900px;
+        width: 100%;
+        /* border: 2px solid red; */
+        display: grid;
+        place-items: center;
+        /* background: rgba(0,0,0,0.9); */
+        background-image: url(About\ image.png);
+        background-size: cover;
+        background-position: center;
+        z-index: -2;
+    }
+
+    .container3 {
+        height: 100%;
+        width: 100%;
+        /* place-items: center; */
+        background: cornflowerblue;
+        /* display: grid; */
+        background: rgba(0,0,0,0.6);
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutus {
+        height: 710px;
+        width: 312px;
+        border: 2px solid black;
+        text-align: left;
+        position: relative;
+        /* float: right; */
+        /* right: 30px; */
+        top: 140px;
+        padding: 10px;
+    }
+
+    .some {
+        /* border: 2px solid red; */
+        margin-top: 65px;
+    }
+
+    .name {
+        /* border: 2px solid purple; */
+        display: inline-block;
+        position: absolute;
+        /* top: 20px; */
+        bottom: 20px;
+        /* top: 20px; */
+        height: 60px;
+        width: 125px;
+        /* bottom: 20px; */
+        text-align: left;
+    }
+    .name .aiden{
+        font-size: 25px;
+    }
+    .name p{
+        font-size: 11px;
+    }
+
+    .sign {
+        /* border: 2px solid blue; */
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        bottom: 8px;
+        height: 50px;
+        width: 130px;
+    }
+
+    #contact {
+        height: 150px;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+
+    
+.container4 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: center; */
+    /* line-height: 30px; */
+}
+
+#adrs {
+    /* border: 2px solid black; */
+    display: inline-flex;
+    width: 280px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#num {
+    /* border: 2px solid black; */
+    display: inline-flex;
+    width: 200px;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#mail {
+    /* border: 2px solid black; */
+    display: inline-flex;
+    width: 295px;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+   
+}
+
+@media (min-width:600px) and (max-width:768px) {     /*tablets*/
+    body{
+        background-color: yellow;
+    }
+
+    /* .right ul{
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 30px;
+        
+        cursor: pointer;
+    }
+
+    #bars{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .right ul li a{
+        font-size: 25px;
+    }
+    .right{
+        position: absolute;
+        background: #52586b;
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        
+        right: -300px;
+        z-index: 200;
+        
+        z-index: 2;
+        transition: 0.5s;
+    } */
+
+    .left{
+        left: 15px;
+    }
+
+    .quote h2{
+        font-size: 22px;
+    }
+    .card1, .card2, .card3 {
+        width: 285px;
+        height: 450px;
+    }
+    .card1{
+        display: inline-block;
+    /* height: 490px;
+    width: 300px; */
+    position: relative;
+    left: 10px;
+    /* left: ; */
+      }
+
+      .card2{
+          
+        display: inline-block;
+        /* height: 490px;
+        width: 300px; */
+        position: absolute;
+        right: 10px;
+    }
+
+    .card3{
+        display: block;
+        /* height: 490px;
+        width: 300px; */
+        margin: 15px auto;
+      }
+
+      #prog{
+        height: 1100px;
+      }
+      .container2{
+        height: 100%;
+        width: 100%;
+      }
+      .container2 .prohead{
+        width: 235px;
+        margin: 15px auto;
+      }
+
+      .cards{
+        height: 100%;
+        width: 100%;
+      }
+
+      .cardinfo{
+        /* position: absolute; */
+        position: relative;
+        top: 145px;
+        align-self: flex-end;
+        opacity: 0;
+        transform: translateY(30px);
+        z-index: 40;
+        transition: all 0.7 ;
+    }
+
+    .card1:hover .cardinfo{
+        opacity: 1;
+        transform: translateY(0px);
+        
+    }
+
+    .tth{
+        margin: 100px 0;
+    }
+    #contact{
+        height: 170px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .container4{
+        height: 100%;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* justify-content: space-around; */
+        /* line-height: 30px; */
+
+    }
+
+    .aboutus{
+        float: right;
+        right: 30px;
+    }
+
+   
+
+}
+
+@media (min-width:768px) and (max-width:992px) {         /*laptops*/
+    body{
+        background-color: green;
+    }
+    .quote .brt2{
+        margin: 0 30px;
+    }
+    .container2{
+        width: 100%;
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .card1, .card2, .card3{
+        height: 470px;
+        width:240px;
+    }
+
+    .aboutus{
+        float: right;
+        right: 15px;
+        width:530px;
+        height:462px;
+    }
+
+    .container4{
+        justify-content: space-around;
+    }
+
+    #adrs{
+        width: 260px;
+    }
+    #adrs i{
+        margin: 0 5px;
+    }
+
+    #num{
+        width: 185px;
+    }
+    #num i{
+        margin: 0 5px;
+    }
+
+    #mail{
+        width: 282px;
+    }
+    #mail i{
+        margin: 0 5px;
+    }
+
+    .fht{
+        margin: 7px 0;
+      }
+    
+}
+
+@media (min-width:992px) and (max-width:1500px) {        /*large*/
+    body{
+        background-color: blue;
+    }
+    .cards{
+        width: 105%;
+        display: flex;
+    }
+    .aboutus{
+        float: right;
+        right: 15px;
+    }
+    .cards{
+        display: flex;
+    }
+}
